@@ -13,11 +13,12 @@
 
 Недопустим ввод в коллекцию null, символов и других значений, кроме целых чисел.
 =========================
-public class ArrayListRun  - demonstrates all the functionality;
-public void sizeCollection()  - creates a collection of 10 elements in size;
-public void minmaxElement() - finds the minimum and maximum value of the collection;
+public class ArrayListRun  - launch collection;
+public class ArrayList - collection functionality;
+public void sizeCollection()  - output information on the collection;
 public void sumElement() - displays the arithmetic mean on the screen;
-public void addElement() - adds an element and all items in the collection increase their value by the item being added;
+public void maxElement() - finds the maximum value of the collection;
+public void minElement() - finds the minimum value of the collection;
 public void removeElement() - removes the item and all items in the collection reduce their value to the deleted item;
-public void indexElement() - finds the element by value and displays its index;
-public void setElement() - finds the element by index and displays its value;
+public void removeIndex() - finds the element by value and displays its index;
+private void rangeCheck() - range check for exceptions.
