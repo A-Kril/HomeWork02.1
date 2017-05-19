@@ -10,7 +10,7 @@ public class ArrayListRun {
         System.out.println("Минимальное значение коллекции: " + integers.minElement() + "\n");
     }
 
-    public static void main(String[] args) {
+    public static void printMenu() {
         ArrayList collection = new ArrayList();
         Random random = new Random();
 
